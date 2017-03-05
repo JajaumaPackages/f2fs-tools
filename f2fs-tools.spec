@@ -1,6 +1,6 @@
 Name:		f2fs-tools
-Version:	1.7.0
-Release:	2%{?dist}
+Version:	1.8.0
+Release:	1%{?dist}
 Summary:	Tools for Flash-Friendly File System (F2FS)
 License:	GPLv2+
 URL:		http://sourceforge.net/projects/f2fs-tools/
@@ -84,6 +84,9 @@ rm -f %{buildroot}/%{_libdir}/*.la
 %{_libdir}/*.so
 
 %changelog
+* Sun Mar 05 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.8.0-1
+- Update to latest upstream release
+
 * Fri Feb 10 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.7.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
